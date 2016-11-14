@@ -15,7 +15,8 @@ function requireAll (requireContext) {
   return requireContext.keys().map(requireContext)
 }
 
-var fileList = requireAll(require.context(__dirname, true, /.*json$/))var _ = require('lodash')
+var fileList = requireAll(require.context(__dirname, true, /.*json$/))
+var _ = require('lodash')
 
 module.exports = function () {
   var totalList = []
