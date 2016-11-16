@@ -20,7 +20,7 @@ function requireAll (requireContext) {
 var _ = require('lodash')
 
 var fileList = _.map(countries, function(country) {
-  return require('./' + countries + '.json');
+  return require('./' + country + '.json');
 });
 
 module.exports = function () {
