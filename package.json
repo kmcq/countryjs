@@ -12,9 +12,9 @@
     "Loris Guignard <loris.guignard@gmail.com> [@loris]"
   ],
   "repository": "therebelrobot/countryjs",
-  "engines": [
-    "node"
-  ],
+  "engines": {
+    "node": "~4.4.4",
+  },
   "scripts": {
     "pretest": "./node_modules/standard/bin/cmd.js",
     "test": "./node_modules/istanbul/lib/cli.js cover _mocha --"
