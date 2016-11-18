@@ -1,5 +1,5 @@
 {
-  "name": "countryjs-yei",
+  "name": "countryjs",
   "version": "1.5.4",
   "description": "A utility library for returning country data, ISO info and states/provinces within them.",
   "main": "index.js",
@@ -12,9 +12,6 @@
     "Loris Guignard <loris.guignard@gmail.com> [@loris]"
   ],
   "repository": "therebelrobot/countryjs",
-  "engines": {
-    "node": "~6.9.1"
-  },
   "scripts": {
     "pretest": "./node_modules/standard/bin/cmd.js",
     "test": "./node_modules/istanbul/lib/cli.js cover _mocha --"
